@@ -1,6 +1,5 @@
-import React from 'react';
 import Login from './screens/login/login.screen';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import { LoginPath } from './screens/login/login.types';
 import { ThemeProvider } from 'styled-components';
 import theme from './themes/main/theme';
@@ -11,7 +10,8 @@ import { HomePath } from './screens/home/home.types';
 import Home from './screens/home/home.screen';
 import UserGuard from './components/routers/user-guard/user-guard.component';
 
-function App() {
+function App() {  
+
   return (
       <Provider store={store}>
         <ThemeProvider theme={theme}>
