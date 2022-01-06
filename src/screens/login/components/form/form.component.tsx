@@ -1,9 +1,9 @@
 import React, {useCallback, useEffect, useMemo, useState} from "react";
-import InputText from "../../../../components/inputs/input-text/input-text-component";
+import InputText from "../../../../components/inputs/input-text/input-text.component";
 import Button from "../../../../components/buttons/button/button.component";
 import * as yup from 'yup'
 import {ErrorMessage} from "./form.types";
-import {ErrorDescription} from "./form-styled";
+import {ErrorDescription} from "./form.styled";
 import {userActions} from "../../../../store/user/user.slice";
 import {useDispatch, useSelector} from "react-redux";
 import {isAuthenticated, isLoading} from "../../../../store/user/user.selectors";
